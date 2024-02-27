@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pinterest.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Pintrest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header flex z-50 fixed items-center w-full h-[100px] px-7 justify-between gap-10 bg-slate-50">
+            <div class="nav-right flex items-center gap-[30px] ">
+                <img src="./pinterest.png" class="w-6" alt="">
+                <a href="#" class=" font-semibold text-white p-[12px] bg-slate-900 rounded-full">Home</a>
+                <a href="#" class="font-semibold">Explore</a>
+                <a href="#" class="font-semibold">Create</a>
+            </div>
+            <div class="  w-[100%] relative  ">
+                <div
+                    class=" nav-center bg-slate-300 border-transparent border-4  p-[10px] rounded-full w-[100%] flex justify-between items-center">
+                    <i class="ri-search-line px-2 font-black text-slate-500"></i>
+                    <input type="text" id="input-search" class="w-full bg-slate-300 border-none outline-none"
+                        placeholder="Search">
+                </div>
+                <div class="w-full searchData absolute bg-slate-50 z-99 rounded  p-3">
+
+                </div>
+            </div>
+            <div class="nav-left flex items-center gap-[10px] text-slate-600">
+                <i
+                    class="ri-notification-2-fill w-[50px] flex items-center justify-center h-[50px] hover:bg-slate-300 rounded-full text-2xl"></i>
+                <i
+                    class="ri-message-3-fill w-[50px] flex items-center justify-center h-[50px] hover:bg-slate-300 rounded-full text-2xl"></i>
+                <i
+                    class="ri-account-circle-fill w-[50px] flex items-center justify-center h-[50px] hover:bg-slate-300 rounded-full text-2xl"></i>
+            </div>
+        </div>
+        <div
+            class="  z-1 div-elm w-full mx-auto max-sm:columns-2 md:columns-4 lg:columns-5 xl:columns-5 gap-[10px]  max-w-7xl pt-28 space-y-5 columns-5 px-[20px] ">
+
+        </div>
+        <div id="overlay" class=" z-5 fixed  left-0 top-0 right-0  w-full h-screen">
+
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.36/dist/lenis.min.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
