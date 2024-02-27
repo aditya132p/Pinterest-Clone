@@ -15,19 +15,20 @@ This project is a work-in-progress clone of Pinterest, aiming to provide a visua
 * **Backend:**
     * Not implemented in this project (focused on frontend functionality)
 
-**Current Features:**
 
-* Basic layout with boards and pins
+**Current Progress:**
+
+* Basic Structure: The fundamental layout elements are established.
 * Mobile-responsive design
-* Initial data population using JavaScript functions and arrays (placeholder for actual database integration)
+* Data Management: JavaScript functions and arrays are used to handle name and image URL data.
 
-**Planned Features:**
+**Future Development:**
 
 * User authentication and registration
 * Pin creation, editing, and deletion
 * Board creation, editing, and deletion
 * Pin and board sharing
-* Search functionality
+* Backend Integration (Optional): API usage will be considered upon community consensus and permission.
 * Liking and commenting on pins
 * Integration with a backend database (e.g., Node.js/Express.js, Django, etc.)
 * Continuous improvements to the user experience and design
